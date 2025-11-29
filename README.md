@@ -40,6 +40,7 @@ This demo repository combines:
 ---
 
 ## 📁 Repository Structure
+```
 luma-core-demo/
 ├── apps/
 │   └── demo-pwa/       # Working PWA demo
@@ -54,6 +55,7 @@ luma-core-demo/
 └── src/
     ├── engine/         # Placeholder for private core engine
     └── hubs/           # Hub documentation shells
+```
 
 
 ---
