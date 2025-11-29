@@ -1,68 +1,52 @@
 # 🚀 Luma Core — Sovereign Digital Infrastructure (Demo Repo)
 
 **Luma Core** is a sovereign, offline-first digital infrastructure framework designed to unify:
+
 - Government systems  
 - Finance & ISO 20022 workflows  
 - Healthcare & Cannabis compliance  
 - Utilities & Metering  
-- Justice & Rescue operations  
+- Justice, Rescue Ops & Emergency Networks  
 - XRPL / DLT settlement  
 - Zero-trust audit trails  
 
-This demo repository includes: a working PWA, documentation and core specification stubs.  
-Production-grade engine, cryptography, and integration code remain private.
+This demo repository combines:
+
+- A working **Progressive Web App (PWA)** showcasing hub workflows  
+- High-level documentation and protocol specifications  
+*(Production cryptography and engine internals are private)*
 
 ---
 
 ## 🧭 What This Repository Demonstrates
 
-**Working Demo App (PWA)**  
-• Finance / Cannabis / Government mini-hubs  
-• Live simulated audit receipts  
-• Offline-capable PWA  
-• Receipt-per-workflow model  
+### ✔️ Demo App (PWA)
+- Finance / Cannabis / Government mini-hubs  
+- Simulated audit receipts  
+- Offline-capable PWA  
+- Receipt-per-workflow model  
 
-**Technical Documentation**  
-• XIP Protocol (Cross-Integrity Protocol)  
-• Audit Receipt Engine spec  
-• Adaptive Communications Layer (ACL) spec  
-• System architecture overview  
+### ✔️ Documentation & Protocol Spec
+- XIP Protocol (Cross-Integrity Protocol)  
+- Audit Receipt Engine spec  
+- Adaptive Communications Layer (ACL) spec  
+- Architecture overview & design doc  
 
-**Offline-First Sovereign Architecture**  
-• Mesh networking fallback  
-• Satellite failover / DTN sync  
-• Global audit integrity even offline  
-
----
-
-## 🧩 System Overview Diagram (ASCII)
-
-+------------------------------------------------------------+  
-|                        LUMA CORE                           |  
-|    Sovereign Digital Infrastructure & Audit Layer          |  
-+------------------------------------------------------------+  
-          |                 |                 |  
-          v                 v                 v  
-    Government Hub     Finance Hub       Health/Cannabis Hub  
-    Cases & Identity   Invoices / CBDC   Prescriptions / Supply  
-          |                 |                 |  
-          +-----------------+-----------------+  
-                            |  
-                            v  
-                Cross-Integrity Protocol (XIP)  
-            ↳ Hash-linked audit receipts, offline validity  
-                            |  
-                            v  
-         Adaptive Communications Layer (ACL)  
-       Local Queue → Mesh → Satellite → Ledger Sync  
+### ✔️ Sovereign, Offline-First Architecture
+- Mesh network fallback  
+- Satellite / DTN fallback  
+- Full audit integrity even without internet  
 
 ---
 
 ## 📁 Repository Structure
 
-luma-core-demo/  
-├─ apps/  
-│   └─ demo-pwa/        # Working PWA demo  
-├─ docs/                # Full system documentation & specs  
-└─ src/                 # Engine/hub placeholders  
+
+---
+
+## ✅ Next Steps (For Reviewers & Evaluators)
+
+- Browse the demo under `apps/demo-pwa/`  
+- Review protocol and architecture docs in `docs/`  
+- Use this repo as proof of concept for funding, partnership, or pilot deployment  
 
