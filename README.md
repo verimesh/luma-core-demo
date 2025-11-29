@@ -40,6 +40,20 @@ This demo repository combines:
 ---
 
 ## 📁 Repository Structure
+luma-core-demo/
+├── apps/
+│   └── demo-pwa/       # Working PWA demo
+├── docs/               # Documentation & technical specs
+│   ├── overview.md
+│   ├── architecture.md
+│   ├── audit-receipts.md
+│   ├── xip-standard.md
+│   ├── xip-detailed-spec.md
+│   ├── audit-engine.md
+│   └── adaptive-comms-deep.md
+└── src/
+    ├── engine/         # Placeholder for private core engine
+    └── hubs/           # Hub documentation shells
 
 
 ---
