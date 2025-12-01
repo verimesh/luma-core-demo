@@ -2,72 +2,90 @@
 
 This directory contains the high-level technical documentation for **Luma Core**, the sovereign, offline-first digital infrastructure framework.
 
-Each document provides an overview of one major component of the system.
+It provides a complete overview of the architecture, protocol layers, communications model, and hub design.
 
 ---
 
-## 🔧 Core Architectural Documents
+# 🧱 Core Architectural Documents
 
-### **1. Overview**
+### **1. Overview**  
 `overview.md`  
-High-level description of Luma Core’s purpose, design philosophy, and multi-hub framework.
+High-level explanation of Luma Core’s purpose, multi-hub model, and design philosophy.
 
-### **2. System Architecture**
+### **2. System Architecture**  
 `architecture.md`  
-Explains system layers, hub interactions, data flows, and the audit-by-default model.
+Describes the full system stack, data flow, audit model, and sovereign deployment architecture.
 
 ---
 
-## 🔐 Integrity & Verification Layer
+# 🔐 Integrity & Verification Layer
 
-### **3. Audit Receipts**
+### **3. Audit Receipts**  
 `audit-receipts.md`  
-Breakdown of Luma’s hash-linked receipt system and compliance guarantees.
+Explains hash-linked receipts, chain integrity, and policy embedding.
 
-### **4. Audit Receipt Engine (Deep Technical Spec)**
+### **4. Audit Receipt Engine — Deep Spec**  
 `audit-engine.md`  
-How events are signed, verified, chained, and reconciled offline.
+Technical breakdown of receipt creation, hashing, signing, CRDT merging, and multi-layer verification.
 
-### **5. XIP Protocol — Standard**
+---
+
+# 🔗 Cross-Integrity Protocol (XIP)
+
+### **5. XIP Protocol — Standard**  
 `xip-standard.md`  
-Lightweight explanation of the Cross-Integrity Protocol.
+Lightweight introduction to the Cross-Integrity Protocol used across all hubs.
 
-### **6. XIP Protocol — Detailed Specification**
+### **6. XIP Protocol — Detailed Specification**  
 `xip-detailed-spec.md`  
-Full technical breakdown of XIP transaction structure, verification layers, and cross-hub interoperability.
+Full packet structure, verification rules, transport modes, and cross-border interoperability.
 
 ---
 
-## 📡 Adaptive Communications Layer
+# 📡 Adaptive Communications Layer
 
-### **7. Adaptive Comms Deep Technical Spec**
+### **7. ACL — Overview**  
+`adaptive-comms.md`  
+Introduction to the offline-first communications model: mesh, satellite, DTN, and fallback logic.
+
+### **8. ACL — Deep Technical Spec**  
 `adaptive-comms-deep.md`  
-Explains mesh networking, satellite fallback, DTN behaviour, and multi-path failover.
+Detailed analysis of multi-path routing, device identity persistence, DTN behaviour, and resilience design.
 
 ---
 
-## 🧩 Hub Documentation Shells
+# 🧩 Hub Documentation
 
-These folders contain stubs/placeholders for future expansion:
+Each hub represents a sovereign-ready module:
 
-- `../src/hubs/finance/`
-- `../src/hubs/cannabis/`
-- `../src/hubs/government/`
+### **Finance Hub**  
+`../src/hubs/finance/README.md`  
+ISO workflows, invoices, settlement, VAT, reconciliation, and CBDC readiness.
 
-Each hub will receive:
-- policy rules  
-- workflow descriptions  
-- sample receipt flows  
+### **Cannabis / Health Compliance Hub**  
+`../src/hubs/cannabis/README.md`  
+Prescriptions, dispensing, supply chain, policy rules, and medical compliance.
+
+### **Government Hub**  
+`../src/hubs/government/README.md`  
+Case management, evidence chains, identity services, policy enforcement, emergency ops.
 
 ---
 
-## 🧭 Purpose of This Index
+# 🧭 Purpose of This Documentation Set
 
-This index provides reviewers, researchers, and stakeholders with a simple entry point to the Luma Core documentation set.
+This index is designed for:
 
-Use it to:
-- navigate a multi-component architecture  
-- understand protocol design  
-- evaluate sovereign deployment readiness  
-- prepare for deeper technical review  
+- reviewers and evaluators  
+- universities and research partners  
+- government departments  
+- funding bodies (TechStart, Invest NI, councils)  
+- industry or enterprise adopters  
 
+It provides a clear entry point into the Luma Core architecture and demonstrates deployment readiness.
+
+---
+
+# ✔ Status
+
+This documentation set is complete and actively updated as Luma Core evolves.
