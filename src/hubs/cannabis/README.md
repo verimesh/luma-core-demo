@@ -1,56 +1,79 @@
-# 🌿 Cannabis Hub — Documentation Shell
+# Luma Core — Cannabis / Medical Health Hub
 
-The Cannabis Hub demonstrates how Luma Core manages medical cannabis compliance
-across prescriptions, dispensing, supply chains, and audit receipts.
+The **Cannabis Hub** models a complete medical cannabis workflow for patients,
+doctors, pharmacies, regulators, and cross-border verification. It demonstrates
+how Luma Core handles regulated, high-compliance industries using audit-by-default
+receipts and offline continuity.
 
-This file is a documentation shell for future expansion.
-
----
-
-## 📌 Purpose
-The Cannabis Hub is designed for:
-
-- patient verification  
-- doctor prescription workflows  
-- pharmacy dispensing  
-- regional pricing libraries  
-- product verification (QR/AR ready)  
-- supply chain transparency  
-- audit-by-default compliance  
+This hub is aligned with:
+- medical cannabis frameworks (NI/EU/CA/AUS)
+- prescription verification workflows
+- pharmacy dispense controls
+- supply chain integrity rules
 
 ---
 
-## 🔄 Example Workflows
+## 🌿 Core Workflows
 
-### 1. Prescription Issue
-`doctor.prescribe → audit receipt → pharmacy access`
+### **1. Consultation → Prescription**
 
-### 2. Pharmacy Dispense
-`pharmacy.dispense → stock check → audit receipt`
+### **2. Pharmacy Verification**
 
-### 3. Product Verification
-`scan.product → batch data → audit receipt`
+### **3. Patient Pickup**
+Receipt chain continues from doctor → pharmacy → patient.
 
----
-
-## 🔐 Receipt Logic
-
-Every event generates a sovereign audit receipt containing:
-
-- device signature  
-- doctor/pharmacy jurisdiction policy outcome  
-- prescription UUID  
-- previous-hash link  
-- timestamp  
+### **4. Supply Chain Events (Optional)**
 
 ---
 
-## 🧩 Future Expansion
+## 🔐 Policy Enforcement
 
-This document will later include:
+All medical workflows embed policy checks into receipts:
 
-- therapeutic use cases  
-- product categories  
-- image/video library templates  
-- QR/AR verification logic  
-- council/regulator integration  
+- age validation  
+- licence/medical card verification  
+- prescription matching  
+- doctor + pharmacy role checks  
+- jurisdictional limits  
+- quantity + frequency rules  
+- optional cross-border verification  
+
+These policies are **recorded inside each receipt** for regulator-grade compliance.
+
+---
+
+## 🔄 Sample Receipt Chain
+
+
+The chain is tamper-evident and offline-compatible.
+
+---
+
+## 🧭 Why This Hub Matters
+
+The Cannabis Hub is your **pilot demonstration hub**, showing:
+
+- medical compliance  
+- cross-role workflows  
+- high trust requirements  
+- regulators’ favourite: transparent audit trails  
+- offline-first healthcare operations  
+
+It proves Luma Core can regulate **any high-compliance environment**, not just cannabis.
+
+---
+
+## 🧩 Future Extensions
+
+- QR/AR product verification  
+- doctor/pharmacy CRM flows  
+- pricing catalogue + supply chain maps  
+- clinical evidence modules  
+- cross-border patient mobility  
+
+---
+
+## 📄 Notes
+
+This directory contains **documentation only**.  
+All production logic and cryptography remain private as part of Luma Core.
