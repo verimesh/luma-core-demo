@@ -1,3 +1,21 @@
 {
-  "name": "Luma Core Demo"
+  "name": "Luma Core Demo",
+  "short_name": "LumaDemo",
+  "description": "Demonstration of Luma Core's sovereign audit layer and multi-hub workflow engine.",
+  "start_url": "index.html",
+  "display": "standalone",
+  "background_color": "#000814",
+  "theme_color": "#001933",
+  "icons": [
+    {
+      "src": "/icons/icon-192.png",
+      "sizes": "192x192",
+      "type": "image/png"
+    },
+    {
+      "src": "/icons/icon-512.png",
+      "sizes": "512x512",
+      "type": "image/png"
+    }
+  ]
 }
