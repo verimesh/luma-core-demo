@@ -1,3 +1,11 @@
+![Status](https://img.shields.io/badge/status-stable-blue)
+![Demo Version](https://img.shields.io/badge/XIP%20Demo-v1.0.0-green)
+![License](https://img.shields.io/badge/license-proprietary-red)
+
+**Repository Status:**  
+This is the official reference demo implementation of the XIP Protocol.  
+The normative specification is available here:  
+https://github.com/stroanroad/luma-xip-protocol
 # Luma Core Demo — Ultraslim Reference Implementation
 
 This repository provides the lightweight demo implementation used for validating XIP Protocol concepts:
