@@ -15,7 +15,8 @@ offline receipts, hub navigation, sync behaviour, and minimal PWA architecture.
 
 ## Live Demo
 
-🔗 https://melodious-bublanina-c0c6ec.netlify.app
+🔗 https://dancing-narwhal-bb57b2.netlify.app
+
 
 
 ---
