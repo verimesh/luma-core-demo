@@ -1,4 +1,4 @@
-<!DOCTYPE html><html lang="en"><head>
+<!DOCTYPE html><html lang="en"><head><title>UK Government Accountability Dashboard</title>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Luma Connect</title>
@@ -69,7 +69,7 @@
     });
   </script>
 </head>
-<body class="skin-core">
+<body class="skin-government">
   
 <div class="lc-controls">
   <button class="lc-toggle" onclick="toggleTheme()" title="Toggle Dark/Light">☾</button>
@@ -98,17 +98,38 @@
 </div>
 
   <div class="center">
-    <div class="logo"><div class="heartbeat"></div></div>
-    <h1>Luma Connect</h1>
-    <p class="sub">Security is just the beginning.</p>
-    <a class="btn" href="gov-dashboard.html">Government Demo</a>
-    <div class="sub">Accountability across UK & devolved governments</div>
-    <a class="btn" href="medbud-dashboard.html">MedBud Demo</a>
-    <div class="sub">Community health, education, and market transparency</div>
-    <a class="btn" href="test-xrp-ultraslim.html">XRP / Finance</a>
-    <div class="sub">Finance & investor dashboards</div>
-    <a class="btn" href="plain.html">Plain</a>
-    <div class="sub">Fallback page</div>
+    <h1>UK Government Accountability Dashboard</h1>
+    <div class="card info">
+      <h3>How to Read This Demo</h3>
+      <ol style="text-align:left; max-width:760px; margin:0 auto;">
+        <li><b>Budget by Nation</b> – Compare spend across England, Scotland, Wales, and Northern Ireland.</li>
+        <li><b>Carbon Savings Competition</b> – Who’s leading on emissions reductions?</li>
+        <li><b>Security & Services</b> – UK‑wide signals; drill‑downs to devolved governments and councils.</li>
+      </ol>
+      <p style="opacity:.8"><i>Demo powered by Luma Connect — UK‑wide accountability with devolved and local views. Example figures shown.</i></p>
+    </div>
   </div>
+  <div class="grid">
+    <div class="card"><h2>Budget Overview (Billions, £)</h2><canvas id="budgetChart"></canvas></div>
+    <div class="card"><h2>Carbon Savings — Nation Competition</h2><canvas id="carbonChart"></canvas></div>
+    <div class="card"><h2>Security Status</h2><p>✅ UK Core Systems: Secure</p><p>✅ Data Integrity: Verified</p><p>✅ Public Audit Trail: Live</p></div>
+    <div class="card"><h2>Public Services Transparency</h2><p>📊 Publication Timeliness: 92%</p><p>🧾 Open Contracting Coverage: 88%</p><p>⏱ Service SLAs Met: 93%</p></div>
+  </div>
+  <div class="center" style="margin:20px;"><a href="index.html">⬅ Back to Home</a></div>
+  <script>
+    function themeColor(){ return getComputedStyle(document.body).color; }
+    new Chart(document.getElementById('budgetChart'), {
+      type:'bar', data:{ labels:['England','Scotland','Wales','Northern Ireland'],
+      datasets:[{ label:'Total Spend (£bn)', data:[580,60,35,22],
+      backgroundColor:['#4e79a7','#f28e2c','#e15759','#76b7b2'] }]}, options:{
+        plugins:{ legend:{ labels:{ color: themeColor() } } },
+        scales:{ x:{ ticks:{ color: themeColor() } }, y:{ ticks:{ color: themeColor() } } }
+      }
+    });
+    new Chart(document.getElementById('carbonChart'), {
+      type:'doughnut', data:{ labels:['England','Scotland','Wales','Northern Ireland'],
+      datasets:[{ data:[62,20,12,6], backgroundColor:['#59a14f','#edc948','#af7aa1','#ff9da7'] }]}, options:{ plugins:{ legend:{ labels:{ color: themeColor() } } } }
+    });
+  </script>
   <footer>© Luma Connect — <a href="mailto:info@luma-connect.app">info@luma-connect.app</a></footer>
 </body></html>
