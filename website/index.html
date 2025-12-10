@@ -1,77 +1,123 @@
 
+
+
+
 <!DOCTYPE html>
 <html lang="en">
 <head>
-  <meta charset="UTF-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1" />
-  <title>Luma Connect – Sovereign Digital Infrastructure</title>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Luma Core</title>
 
-  <style>
+<style>
     body {
-      margin: 0;
-      font-family: Arial, Sans-Serif;
-      background: #0b1e33;
-      color: #fff;
-      text-align: center;
-      padding: 40px 20px;
+        margin: 0;
+        padding: 0;
+        font-family: Arial, sans-serif;
+        background: linear-gradient(180deg, #0b1e33, #001429);
+        color: #fff;
+        text-align: center;
+        padding: 40px 20px;
     }
 
     h1 {
-      font-size: 2.4rem;
-      margin-bottom: 10px;
+        font-size: 2.8rem;
+        margin-bottom: 10px;
+    }
+
+    .badge {
+        display: inline-block;
+        background: #00a6ff;
+        padding: 6px 14px;
+        border-radius: 10px;
+        font-size: 0.95rem;
+        margin-bottom: 25px;
+        font-weight: bold;
     }
 
     p {
-      font-size: 1.1rem;
-      max-width: 700px;
-      margin: 10px auto 25px;
-      line-height: 1.6;
-      opacity: 0.9;
+        max-width: 700px;
+        margin: 0 auto 25px;
+        line-height: 1.6;
+        font-size: 1.05rem;
+        opacity: 0.95;
+    }
+
+    .btn-container {
+        margin: 25px 0;
     }
 
     .btn {
-      display: inline-block;
-      padding: 14px 26px;
-      font-size: 1.1rem;
-      background: #2d8bff;
-      color: white;
-      text-decoration: none;
-      border-radius: 6px;
-      margin: 14px 0;
+        display: inline-block;
+        margin: 8px 10px;
+        padding: 14px 22px;
+        background: #007bff;
+        border-radius: 8px;
+        color: white;
+        text-decoration: none;
+        font-weight: bold;
+        font-size: 1.05rem;
+        min-width: 180px;
     }
 
     .btn:hover {
-      background: #1c6cd9;
+        background: #0a8dff;
     }
 
-    .desc {
-      margin-top: -10px;
-      margin-bottom: 20px;
-      font-size: 1rem;
-      opacity: 0.7;
+    .qr-container {
+        margin-top: 30px;
     }
-  </style>
+
+    footer {
+        margin-top: 35px;
+        font-size: 0.85rem;
+        opacity: 0.8;
+        max-width: 700px;
+        margin-left: auto;
+        margin-right: auto;
+        line-height: 1.4;
+    }
+</style>
 </head>
-
 <body>
 
-  <h1>Luma Connect</h1>
-  <p>Security is just the beginning.</p>
+<h1>Luma Core</h1>
 
- <!-- LIVE DEMO BUTTONS (pointing to website/demo/) -->
+<div class="badge">Pilot-Ready • 2025–2026</div>
 
-<a class="btn" href="./demo/gov-dashboard.html">Government Demo</a>
-<p class="desc">Accountability across UK & devolved governments</p>
+<p>
+A sovereign-grade digital infrastructure framework designed for governments, councils, 
+and public services. Luma Core provides offline-first operations, tamper-evident audit 
+trails, and a unified backbone for Finance, Government, Health, Utilities, and Emergency 
+response.<br><br>
+Built for resilience, accountability, and real-world conditions — including low-signal 
+and no-signal environments.
+</p>
 
-<a class="btn" href="./demo/medbud-dashboard.html">MedBud Demo</a>
-<p class="desc">Community health, education, and transparency</p>
+<div class="btn-container">
+    <a class="btn" href="https://dancing-narwhal-bb57b2.netlify.app" target="_blank">Launch Demo</a>
+    <a class="btn" href="https://github.com/stroanroad/luma-xip-protocol" target="_blank">View Protocol Spec</a>
+</div>
 
-<a class="btn" href="./demo/test-xrp-ultraslim.html">XRP / Finance</a>
-<p class="desc">Finance & investor dashboards</p>
+<div class="qr-container">
+    <p>Scan to open the demo on mobile:</p>
+    
+    <!-- QR CODE IMAGE GENERATED DIRECTLY FROM THE DEMO LINK -->
+    <img src="https://api.qrserver.com/v1/create-qr-code/?size=220x220&data=https://dancing-narwhal-bb57b2.netlify.app" 
+         alt="QR Code" width="220" height="220">
+</div>
 
-<a class="btn" href="./demo/plain.html">Plain</a>
-<p class="desc">Fallback page</p>
+<p style="margin-top: 20px;">
+Contact: <a href="mailto:info@luma-connect.app" style="color:#7fc7ff;">info@luma-connect.app</a>
+</p>
 
+<footer>
+© 2025 Luma Core — All Rights Reserved<br><br>
+This site and demonstration are provided for evaluation purposes only. Nothing shown 
+constitutes a commercial offering, contract, or commitment. All intellectual property, 
+architecture, audit frameworks, and adaptive communications concepts remain the exclusive 
+property of Luma Connect.
+</footer>
 
 </body>
 </html>
