@@ -52,6 +52,6 @@ It provides a working example of XIP behaviour across multiple hubs using an off
 This demo is **non-normative**.  
 The authoritative specification lives in the XIP Protocol repository:
 
-https://github.com/stroanroad/luma-xip-protocol
+https://github.com/verimesh/luma-xip-protocol
 
 All future demo updates will follow tagged protocol versions.

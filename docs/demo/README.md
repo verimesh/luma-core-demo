@@ -18,7 +18,7 @@ It exists only to demonstrate how Luma Core hubs operate in a unified interface.
 
 You can view the hosted demo here:
 
-👉 **https://stroanroad.github.io/luma-core-demo/apps/demo-pwa/**
+👉 **https://verimesh.github.io/luma-core-demo/apps/demo-pwa/**
 
 (If the link changes, update it here.)
 

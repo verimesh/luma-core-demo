@@ -5,7 +5,7 @@
 **Repository Status:**  
 This is the official reference demo implementation of the XIP Protocol.  
 The normative specification is available here:  
-https://github.com/stroanroad/luma-xip-protocol
+https://github.com/verimesh/luma-xip-protocol
 # Luma Core Demo — Ultraslim Reference Implementation
 
 This repository provides the lightweight demo implementation used for validating XIP Protocol concepts:
@@ -15,7 +15,8 @@ offline receipts, hub navigation, sync behaviour, and minimal PWA architecture.
 
 ## Live Demo
 
-🔗 https://dancing-narwhal-bb57b2.netlify.app
+🔗 https://https://luma-core-demo.netlify.app
+
 
 
 
@@ -49,7 +50,7 @@ This demo is intentionally ultraslim — it exists to support early protocol tes
 
 The demo is powered by the XIP Protocol specification:
 
-https://github.com/stroanroad/luma-xip-protocol
+https://github.com/verimesh/luma-xip-protocol
 
 ---
 
@@ -62,4 +63,4 @@ All sovereign, governmental, or enterprise deployments require a signed release 
 
 ## Contact
 
-https://luma-connect.app
+https://verimesh.net
