@@ -18,7 +18,7 @@ If you identify a potential security issue in this demo:
 
 1. Do **not** publicly post exploit details.
 2. Contact the Luma Core project via the contact page at:  
-   https://luma-connect.app
+   https://verimesh.net
 
 Please describe:
 

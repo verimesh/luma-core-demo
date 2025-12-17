@@ -34,4 +34,4 @@ By submitting any form of feedback—issues, ideas, or comments—you agree that
 ## 4. Contact
 
 For formal collaboration or sovereign deployment discussions, visit:  
-https://luma-connect.app
+https://verimesh.net
