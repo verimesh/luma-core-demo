@@ -91,7 +91,7 @@ section,
 }
 
 #receipt-list {
-    list-style: none;
+    list-style: none;/*
 }
 
 #receipt-list li {
@@ -108,4 +108,40 @@ footer {
     text-align: center;
     font-size: 0.75rem;
     color: var(--text-secondary);
+}
+/* ===============================
+   FINANCE HUB / RECEIPT CONTROLS
+   =============================== */
+
+/* Generic buttons created by JS */
+button {
+    background: transparent;
+    border: 1px solid var(--border-subtle);
+    color: var(--text-primary);
+    padding: 0.4rem 0.8rem;
+    font-size: 0.8rem;
+    cursor: pointer;
+}
+
+button:hover {
+    border-color: var(--accent-copper);
+    color: var(--accent-copper);
+}
+
+/* Receipt / output rows */
+#hub-content div,
+#hub-content p,
+#hub-content li {
+    background: var(--bg-panel);
+    color: var(--text-secondary);
+    border: 1px solid var(--border-subtle);
+    padding: 0.6rem;
+    margin-bottom: 0.4rem;
+    font-size: 0.8rem;
+}
+
+/* Remove ugly default list styling */
+#hub-content ul {
+    list-style: none;*/
+    padding-left: 0;
 }
