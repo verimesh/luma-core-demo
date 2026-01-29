@@ -89,3 +89,22 @@ It provides a clear entry point into the Luma Core architecture and demonstrates
 # ✔ Status
 
 This documentation set is complete and actively updated as Luma Core evolves.
+
+▶ Live Demo
+
+You can view the hosted offline-first browser demo here:
+👉 https://luma-core-demo.netlify.app/
+
+This demo runs entirely client-side and demonstrates:
+
+Offline-first behaviour
+
+Local audit receipts
+
+Sync and reconciliation
+
+Installable PWA support
+
+It is preserved as a reference implementation of how Luma Core hubs operate without servers or continuous connectivity.
+
+Note: Production deployments run on secure device builds and the Luma OPS Command Centre rather than the public browser demo.

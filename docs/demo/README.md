@@ -18,10 +18,10 @@ It exists only to demonstrate how Luma Core hubs operate in a unified interface.
 
 You can view the hosted demo here:
 
-👉 **https://verimesh.github.io/luma-core-demo/apps/demo-pwa/**
+👉 https://luma-core-demo.netlify.app/
 
-(If the link changes, update it here.)
-
+This demo runs entirely client-side and is preserved as a reference implementation of Luma Core’s offline behaviour and audit receipt flow.
+Production deployments use the secure device build and OPS Command Centre.
 ---
 
 ## 📸 Screenshots (to be added)
@@ -32,7 +32,7 @@ You can view the hosted demo here:
 - Government hub  
 - Receipt chain view  
 
-*Coming soon — will be added once screenshots are prepared.*
+
 
 ---
 
