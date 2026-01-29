@@ -22,17 +22,6 @@ You can view the hosted demo here:
 
 This demo runs entirely client-side and is preserved as a reference implementation of Luma Core’s offline behaviour and audit receipt flow.
 Production deployments use the secure device build and OPS Command Centre.
----
-
-## 📸 Screenshots (to be added)
-
-- Dashboard view  
-- Finance hub  
-- Cannabis hub  
-- Government hub  
-- Receipt chain view  
-
-
 
 ---
 
