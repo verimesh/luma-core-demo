@@ -36,10 +36,10 @@ Production deployments use the secure device build and OPS Command Centre.
 
 ---
 
-## 🛠 Developer Notes
+Developer Notes
 
-This demo is a simplified static representation.  
-It is **not** the Luma Core engine and contains no cryptography, no XIP implementation, and no real audit chain.
+This browser demo is a lightweight reference build used to demonstrate Luma Core’s offline-first behaviour, hub interface, and receipt workflow in a public environment.
 
-It is safe for public testing, hackathons, funding reviews, and university research.
+It is intentionally client-side and designed for safe evaluation, testing, and demonstrations.
 
+Full production deployments run on secure device builds with the Luma audit engine, receipt layer, and OPS Command Centre.
