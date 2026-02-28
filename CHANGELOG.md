@@ -1,6 +1,8 @@
 # Luma Core Demo — Changelog
 
-## v1.0.0 — Initial Release (2025-12-03)
+## [1.5.0] - 2026-02-28
+- Baseline demo/documentation aligned to Luma Core v1.5 (Adaptive Comms + Auto-Off Sync).
+- Institutional attribution cleanup and release freeze readiness.
 
 ### Summary
 This is the first public release of the **Luma Core Demo**, the reference implementation of the XIP Protocol.  

@@ -1,3 +1,8 @@
+## [1.5.0] - 2026-02-28
+- Baseline demo/documentation aligned to Luma Core v1.5 (Adaptive Comms + Auto-Off Sync).
+- Institutional attribution cleanup and release freeze readiness.
+
+
 ![Status](https://img.shields.io/badge/status-stable-blue)
 ![Demo Version](https://img.shields.io/badge/XIP%20Demo-v1.0.0-green)
 ![License](https://img.shields.io/badge/license-proprietary-red)
