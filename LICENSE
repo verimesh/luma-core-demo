@@ -1,6 +1,6 @@
 # Luma Core Demo Proprietary License
 
-Copyright (c) 2023–2025 Luma Core.
+Copyright (c) 2023–2026 Luma Core.
 All rights reserved.
 
 This repository contains a demonstration implementation of parts of the Luma Core / XIP Protocol
@@ -49,8 +49,3 @@ noninfringement.
 In no event shall the author or rights holder be liable for any claim, damages, or other liability,
 whether in an action of contract, tort, or otherwise, arising from, out of, or in connection with
 this demo or the use or other dealings in this work.
-
-## 5. Contact
-
-For licensing and sovereign deployment discussions, contact:
- info@verimesh.net
