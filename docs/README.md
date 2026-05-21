@@ -79,7 +79,6 @@ This index is designed for:
 - reviewers and evaluators  
 - universities and research partners  
 - government departments  
-- funding bodies (TechStart, Invest NI, councils)  
 - industry or enterprise adopters  
 
 It provides a clear entry point into the Luma Core architecture and demonstrates deployment readiness.
