@@ -110,7 +110,7 @@ XIP is licensed as part of **Luma Core**:
 - Royalty per hub or per transaction  
 - Optional settlement-layer integration  
 
-The protocol remains under the control of **Daniel O’Connor**, inventor.
+
 
 ---
 
