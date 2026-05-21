@@ -172,8 +172,6 @@ It is specifically designed to withstand:
 
 ## 7. Operational Advantages of Adaptive Communications
 
-Then:
-
 Traditional centralized platforms often depend on:
 
 continuous connectivity
