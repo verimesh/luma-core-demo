@@ -60,7 +60,7 @@ Luma Core supports:
 - single-country deployments  
 - cross-country federation  
 - national Luma nodes  
-- optional ledger anchoring  
+- optional external ledger anchoring
 - jurisdictional policy enforcement  
 
 Each country retains full control over its own system.
@@ -74,6 +74,4 @@ simple idea:
 
 **Every workflow becomes a verifiable receipt — even offline.**
 
-This enables governments, financial institutions, healthcare providers,
-utilities, and regulated sectors to operate with full integrity, resilience and
-interoperability.
+This enables governments, financial institutions, healthcare providers, utilities, and regulated industries to operate with integrity, resilience, and interoperable trust.
