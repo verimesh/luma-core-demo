@@ -53,7 +53,7 @@ If someone alters ANY past entry:
 - EVERY subsequent receipt hash breaks  
 - The system instantly detects manipulation  
 
-This is why governments and banks prefer Luma over traditional logs.
+
 
 ---
 
@@ -117,13 +117,13 @@ Policies are applied at the time of event:
 Each policy outcome is recorded as:
 
 
-This is a **compliance dream** for regulators.
+
 
 ---
 
 ## 8.Architectural Differentiators
 
-Then something like:
+
 
 Offline-first operational design
 Receipt-based audit continuity
